@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - docker/
-      - app/
+      - docker/*
+      - app/* 
 
 jobs:
   docker:

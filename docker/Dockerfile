@@ -1,5 +1,4 @@
 # Just use latest docker image as this is a simple app
-# Use alpine as this is lightweight
 FROM python:alpine
 
 # Create a directory to store the code
