@@ -1,3 +1,4 @@
+# Just use latest docker image as this is a simple app
 FROM python:alpine
 
 # Create a directory to store the code

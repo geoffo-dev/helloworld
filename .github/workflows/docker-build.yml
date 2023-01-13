@@ -28,6 +28,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          file: {context}/docker/Dockerfile
+          file: docker/Dockerfile
           push: true
           tags: geoffodev/helloworld:latest
